@@ -11,7 +11,7 @@ pipeline:
     channel: docker
     template: >
       {{#success build.status}}
-        Hello, build {{build.number}} succeeded. Good jobbb.
+        Hello, build {{build.number}} succeeded. Good jobbbb.
       {{else}}
         Sorry, build {{build.number}} failed. Fix me please.
       {{/success}}
