@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: node:8.11.3-alpine
+    image: angular/ngcontainer
     commands:
       - npm run-script build
       - tar czvf dist.tar dist1
