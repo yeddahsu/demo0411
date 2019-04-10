@@ -2,7 +2,7 @@ pipeline:
   build:
     image: node:8.11.3-alpine
     commands:
-      - cd demo01
+      - cd demo0411
       - npm run-script build
       - tar czvf dist.tar dist1
   slack:
